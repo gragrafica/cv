@@ -1,0 +1,42 @@
+stylos.css
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 24px;
+    
+}
+
+h1,h2, h3, h3 { font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header {
+
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.boton {
+    background-color: #ffffff; 
+    border: 2px solid #1C1B1F;
+    color: #1C1B1F;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 18px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.boton:hover {
+    background-color: #F4454D; 
+    color: white;
+    border-color: #F4454D;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.16), 0 5px 5px 0 rgba(0,0,0,0.12);
+  }
